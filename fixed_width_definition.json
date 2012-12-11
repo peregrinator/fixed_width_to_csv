@@ -1,9 +1,11 @@
-{
-  "month":     2, 
-  "day":       2,
-  "year":      4,
-  "city_code": 5,
-  "state":     2,
-  "zip_code":  5
-}
+[
+  {"month":     2},
+  {"day":       2},
+  {"year":      4},
+  {"dob":       6, "format": "mddyy", "convert_to": "mmddyy"},
+  {"city_code": 5},
+  {"state":     2},
+  {"zip_code":  5},
+  {"test_date": 4, "format": "mmyy", "convert_to": "mmddyy"}
+]
 
