@@ -79,6 +79,15 @@ class Formatters
   def mmyy_to_mmddyy(value)
     "#{value[0..1]}01#{value[2..3]}"
   end
+
+  def myy_to_mmddyy(value)
+    value = value.strip
+    if value.length == 4
+      "#{value[0..1]}01#{value[2..3]}"
+    else
+      "0#{value[0]}01#{value[1..2]}"
+    end
+  end
 end
 
 FixedWidthToCSV.new(ARGV[0], ARGV[1], ARGV[2]).parse

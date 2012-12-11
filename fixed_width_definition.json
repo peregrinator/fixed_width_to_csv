@@ -6,6 +6,6 @@
   {"city_code": 5},
   {"state":     2},
   {"zip_code":  5},
-  {"test_date": 4, "format": "mmyy", "convert_to": "mmddyy"}
+  {"test_date": 4, "format": "myy", "convert_to": "mmddyy"}
 ]
 
